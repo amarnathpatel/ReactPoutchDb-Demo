@@ -19,7 +19,7 @@ class IndexPage extends React.PureComponent {
         if (!notes.length) {
             return (
                 <div className="app-intro">
-                    <h2>Welcome to ReactNotes</h2>
+                    <h2>Welcome to Simple Notes Utility</h2>
                     <p>You don't have any notes. <Link className="btn" to="/new">Get started!</Link></p>
                     <p>All notes you create will be stored right here, on your browser.</p>
                     <hr/>
